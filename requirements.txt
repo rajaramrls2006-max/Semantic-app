@@ -1,0 +1,6 @@
+streamlit==1.48.1
+python-dotenv
+llama-index
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+
