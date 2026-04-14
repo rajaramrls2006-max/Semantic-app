@@ -1,21 +1,22 @@
-Ultimate Sports Hub is a modern, responsive web application designed to provide users with a centralized platform for exploring different sports and viewing live score updates.
+This project is a Semantic Search and Summarization application built using Streamlit, LlamaIndex, and Google Gemini AI. It allows users to upload PDF documents and interact with them using a chat-based interface.
 
-The website includes multiple sections such as Home, Sports Categories, Live Scores, and an interactive image slider. It offers quick access to popular sports like Cricket, Football, Kabaddi, Badminton, and Basketball through external links.
+The system automatically processes uploaded PDFs, converts them into vector embeddings, and stores them for efficient semantic search. Users can then ask questions, and the application retrieves and generates accurate answers based on the document content.
 
 Key Features:
-- Clean and responsive UI design using HTML, CSS, and JavaScript
-- Interactive navigation bar with smooth layout
-- Live score section with dynamically updated match data
-- Image slider implemented using Swiper.js
-- Sports cards with hover effects and external links
-- Attractive hero section with background visuals
-- Footer with team contact information
+
+* Upload and process multiple PDF documents
+* Automatic indexing and persistent storage
+* AI-powered semantic search using vector embeddings
+* Chat-based interface for querying documents
+* Streaming responses for real-time interaction
+* Clean and minimal UI using Streamlit
 
 Technologies Used:
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (DOM Manipulation)
-- Swiper.js (for slider functionality)
-- Font Awesome (for icons)
 
-This project is ideal for beginners to understand frontend development concepts like layout design, responsiveness, and basic interactivity.
+* Python
+* Streamlit
+* LlamaIndex
+* Google Gemini (LLM + Embeddings)
+* dotenv for environment configuration
+
+This project is ideal for learning AI-based document retrieval, semantic search, and building intelligent chat systems.
